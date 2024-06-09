@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #bbbadd;
+}
+.navbar{
+  height: 80px;
+  background-color: #6c68d0;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  /* padding-left: 340px; */
+  letter-spacing: 2px;
+   font-size: 26px;
+   justify-content: space-evenly;
+}
+.bag{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.prod{
+  display: flex;
+  gap:30px;
+  margin-left: 300px ;
+  margin-bottom: 40px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.total{
+  font-size: 25px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.price{
+  background-color: #645cff;
+  border-radius: 4px;
+  color: white;
+  padding: 4px;
+}
+.btn{
+  padding: 12px;
+  background-color: #8d88f1;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  margin-left: 695px;
+}
+.btn:hover{
+background-color: #645cff;
+color: black;
+font-size: 17px;
+}
+.last-para{
+  font-size: 30px;
+  margin-top: 15px;
+  text-align: center;
+  letter-spacing: 2px;
+  opacity: 0.6;
+}
+.rmv-btn{
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
